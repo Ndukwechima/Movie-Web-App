@@ -20,7 +20,7 @@ async function MoviePage({ params }) {
           width={500}
           height={300}
           className="rounded-lg"
-          style={{ maxWidth: "100%", height: "auto" }}
+          style={{ maxWidth: "100%", height: "100%" }}
         ></Image>
         <div className="p-2">
           <h2 className="text-lg mb-3 font-bold">
