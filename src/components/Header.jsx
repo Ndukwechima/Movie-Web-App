@@ -5,13 +5,6 @@ import { BsFillInfoCircleFill } from "react-icons/bs";
 import Link from "next/link";
 import DarkModeSwitch from "./DarkModeSwitch";
 
-// API_Key = 981512264034990ace65fe84a822b7c5
-// ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5ODE1MTIyNjQwMzQ5OTBhY2U2NWZlODRhODIyY
-// jdjNSIsInN1YiI6IjY1ZjJlNGRhMmZkZWM2MDE1NzI
-// wZGQ3YiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJza
-// W9uIjoxfQ.UhjrPTukwHqK9wB
-// -i30VZcUPtcqzvfN5nmVdd_ynQfY";
-
 function Header() {
   return (
     <div className="flex justify-between items-center p-3 max-w-6xl mx-auto">
