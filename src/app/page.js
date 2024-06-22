@@ -1,8 +1,6 @@
 import Results from "@/components/Results";
 
-// const API_KEY = "981512264034990ace65fe84a822b7c5";
 const API_KEY = process.env.NEXT_PUBLIC_MY_API_KEY;
-// console.log("API_KEY:", process.env.MY_API_KEY);
 async function Home({ searchParams }) {
   const genre = searchParams.genre || "fetchTrending";
   const res = await fetch(
